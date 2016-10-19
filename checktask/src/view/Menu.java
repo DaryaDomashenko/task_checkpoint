@@ -1,0 +1,21 @@
+package view;
+
+/**
+ * Created by Dasha on 19.10.2016.
+ */
+public class Menu {
+    public void printMenu(){
+        System.out.println("1 - add new note");
+        System.out.println("2 - show all notes");
+        System.out.println("3 - delete note");
+        System.out.println("0 - exit");
+    }
+
+    public int showMenu(){
+        System.out.println("");
+
+
+        return 1;
+
+    }
+}
